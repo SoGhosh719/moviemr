@@ -24,15 +24,15 @@ bash
 pip install mrjob
 
 ```
-▶️ How It Works
+### ▶️ How It Works
 
-Component	Action	Example
-Mapper	Emits (movieID, 1)	"u1 m10 4.5 12345" → ("m10", 1)
-Reducer	Sums the counts	("m10", [1, 1]) → ("m10", 2)
+| Component | Action              | Example                                   |
+|-----------|---------------------|-------------------------------------------|
+| Mapper    | Emits `(movieID, 1)`| `"u1 m10 4.5 12345"` → `("m10", 1)`        |
+| Reducer   | Sums the counts     | `("m10", [1, 1])` → `("m10", 2)`           |
 
 📊 Sample Output
 "10"    29  
 "20"    15
-
 userID    movieID    rating    timestamp
 ```
