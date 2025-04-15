@@ -23,7 +23,7 @@ Install the `mrjob` library:
 bash
 pip install mrjob
 
-
+```
 ▶️ How It Works
 
 Component	Action	Example
@@ -35,3 +35,4 @@ Reducer	Sums the counts	("m10", [1, 1]) → ("m10", 2)
 "20"    15
 
 userID    movieID    rating    timestamp
+```
