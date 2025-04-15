@@ -32,7 +32,10 @@ pip install mrjob
 | Reducer   | Sums the counts     | `("m10", [1, 1])` → `("m10", 2)`           |
 
 📊 Sample Output
+
 "10"    29  
+
 "20"    15
+
 userID    movieID    rating    timestamp
 ```
