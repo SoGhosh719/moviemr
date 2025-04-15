@@ -18,7 +18,7 @@ A lightweight MapReduce implementation that analyzes movie rating frequency from
 ### ✅ Prerequisites
 
 Install the `mrjob` library:
-
+```
 bash
 pip install mrjob
 ```
